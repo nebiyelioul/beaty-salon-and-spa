@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       .image_slide{
+           color:blue;
+           display: none;
+       }
+
+       .test{
+           display: block;
+           color: white;
+       }
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+	
+        <a href="index.html" class="logo"><img src="images/logo1.jpg"></a>
+        <div id="menu-toggle" class="menu-toggle" ><span class="bars"></span><span class="bars"></span><span class="bars"></span></div>
+        <nav id="nav" class="nav-main">
+         <ul>
+            <li ><a class="active" href="index.html">Home</a></li>
+            <li>  <div class="dropdown">
+                <button class="dropbtn">services <span id="drop_down">^</span>
+                </button>
+                <div class="dropdown-content">
+                  <a href="services.html">Regular services</a>
+                  <a href="packages.html">Packages</a>
+                </div>
+              </div> </li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="price.html">Price List</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>						
+         </ul>
+        </nav>
+    
+        	
+    </div>
+    <div class="clearfix"></div>
+    <div class="divider">b</div><br>
+    <div class="main_container">
+
+        <div class="slides_container">
+
+                <li class="test" id="image_slide" >
+                    <img id="image" src = "images/image1.jpg" alt = "img here">
+                </li>
+                <li class="image_slide" id="image_slide"><img id="image" src = "images/photos.jpg" alt = "img here"></li>
+                <li class="image_slide" id="image_slide"><img id="image" src = "images/image1.jpg" alt = "img here"></li>
+                <li class="image_slide" id="image_slide"><img id="image" src = "images/photos.jpg" alt = "img here"></li>
+                <li class="image_slide" id="image_slide"><img id="image" src = "images/image1.jpg" alt = "img here"></li>
+                <li class="image_slide" id="image_slide"><img id="image" src = "images/photos.jpg" alt = "img here"></li> 
+             </div>
+             <!-- <button id="btn_prev">prev</button> -->
+    <div class="under_slider">
+
+        <div class="description">
+           <h2>Why Choose Us?</h2>
+           <p>At Fana Beauty Salon and Spa we believe in having the most 
+               highly skilled professional beauty specialists. Our friendly and informative 
+               approach to beauty & spa it the hallmark of our service.
+               At Fana Beauty Salon and Spa we believe in having the most highly skilled 
+               professional beauty specialists. Our friendly and informative approach
+                to beauty & spa it the hallmark of our service.</p>
+                
+            <h2>Our Mission</h2>
+             <p>Our Mission is to be the preferred salon and spa destination in the
+                Addis Ababa City area. Fana Beauty salon and Spa provides the ultimate experience
+                in beauty and well being through excellence in guest services your luxury hair,
+                beauty and spa experience in Addis Ababa.</p>
+
+        </div>
+        <div class="intro">
+            <h2>Our Servieces</h2>
+             <ul>
+                 <li>Haircut</li>
+                 <li>Waxing</li>
+                 <li>Bridal Services</li>
+                 <li>Styling</li>
+                 <li><a href="services.html" style="color:#4a6ff0;">see more ...</a></li>
+             </ul>            
+        </div>
+        
+    </div>
+    <div class="clear"></div>
+    <div>
+     <div class="ttt"><div id="open_hours">Opening hours</div>
+    <br><br>
+    <p>Mon - Fri: 9 AM – 6 PM </p>
+    <p>Saturday: 9 AM – 4 PM </p>
+    <p>Sunday: Closed</p>
+    </div>
+    <div class="video">
+            <iframe src="https://www.youtube.com/embed/01Ii3bq5NNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>       
+    </div>
+
+    <div class="clear"></div>
+    <div class="subscription">
+        <h3 id="sub_head">For your weeding, special progrmas, and any events you can book now</h3>
+        <button class="book_now" id="book_now">
+            Book now
+        </button>
+    </div>
+   
+    <div class="clear"></div>
+    <div id="footer">
+        <div class="social">
+            <ul class="icons_list"> 
+                <li class="icons"><a href="https://www.facebook.com?" target="_blank"><img src="icons/facebook.png"></a></li>
+                <li class="icons"><a href="https://www.instagram.com?"  target="_blank"><img src="icons/instagram.png"></a></li>
+                <li class="icons"><a href="https://www.twitter.com?"  target="_blank"><img src="icons/twitter.png"></a></li>
+                <li class="icons"><a href="https://www.whatsapp.com?"  target="_blank"><img src="icons/whatsapp.png"></a></li>
+                <li class="icons"><a href="https://www.linkedin.com?"  target="_blank"><img src="icons/linkedin.png"></a></li>
+            </ul>
+        </div>
+        <p>Copyright ©2019 All rights reserved |Designed by Nebiye Lioul</p> 
+    </div>
+</div>
+<div class="modal" id="modal">
+    <div class="close" id="close">+</div>
+    <div class="modal-content">
+        <fieldset>
+            <legend>Fana Beauty salon</legend>
+            <p>In order to book for services you must login first or create account</p>
+            <form action="#" method="#">
+                <input type="text" id="email" placeholder="Email address" maxlength="30"><br>
+                <input type="password" id="pass" placeholder="Password" maxlength="30"><br>
+                <input type="submit" value="Login" id="submit"><br><br><br>
+            </form>
+            <a href="#"><span style="float:right;font-size:110%;color:white;"  >Create account</span></a>
+            <span id="forgot_password">Forgot Password?</span>    
+        </fieldset>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

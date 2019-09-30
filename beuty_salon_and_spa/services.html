@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #auto{
+            width:50%;
+            margin:0px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+	
+        <a href="index.html" class="logo"><img src="images/logo1.jpg"></a>
+        <div id="menu-toggle" class="menu-toggle" ><span class="bars"></span><span class="bars"></span><span class="bars"></span></div>
+        <nav id="nav" class="nav-main">
+         <ul>
+            <li ><a href="index.html">Home</a></li>
+            <li>  <div class="dropdown active">
+                <button class="dropbtn">services <span id="drop_down">^</span>
+                </button>
+                <div class="dropdown-content">
+                  <a href="services.html">Regular services</a>
+                  <a href="packages.html">Packages</a>
+                </div>
+              </div> </li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="price.html">Price List</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>						
+         </ul>
+        </nav>
+    
+        	
+    </div>
+    <div class="clearfix"></div>
+    <div class="divider">b</div><br>
+    <div class="main_container">
+        <h2>hair</h2>
+        <div class="serv_group">
+           <div class="img"><p>icon here</p></div>
+           <div class="title">Haircuts</div>
+           <div class="description">
+               <p>
+               description</p>
+            </div>
+       </div>
+       <div class="serv_group">
+            <div class="img"><p>icon here</p></div>
+            <div class="title">Styling</div>
+            <div class="description">
+                <p>
+                description</p>
+             </div>   
+       </div>
+       <div class="serv_group">
+            <div class="img"><p>icon here</p></div>
+            <div class="title">Coloring</div>
+            <div class="description">
+                <p>
+                description</p>
+             </div>      
+       </div>
+       <div class="serv_group">        
+            <div class="img"><p>icon here</p></div>
+            <div class="title" >Relaxer</div>
+            <div class="description">
+                <p>
+                description</p>
+             </div>
+       </div>
+       <div class="serv_group">        
+            <div class="img"><p>icon here</p></div>
+            <div class="title" >Albaso</div>
+            <div class="description">
+                <p>
+                description</p>
+             </div>
+       </div>
+       <div class="serv_group">        
+            <div class="img"><p>icon here</p></div>
+            <div class="title" id="title">Hair Braid</div>
+            <div class="description">
+                <p>
+                description</p>
+             </div>
+       </div>
+
+       <div class="clear"></div>
+       <h2>facial</h2>
+       <div class="serv_group">
+            <div class="img"><p>icon here</p></div>
+            <div class="title">Waxing</div>
+            <div class="description">
+                <p>
+                description</p>
+             </div>     
+       </div>
+       <div class="serv_group">
+            <div class="img"><p>icon here</p></div>
+            <div class="title">Highlights</div>
+            <div class="description">
+                <p>
+                description</p>
+             </div>
+       </div>
+       <div class="serv_group">
+            <div class="img"><p>icon here</p></div>
+            <div class="title"  id="title">Make up</div>
+            <div class="description">
+                <p>
+                description</p>
+             </div>
+       </div>
+       <div class="clear"></div>
+       <h2>Nails</h2>
+       <div class="serv_group">
+            <div class="img"><p>icon here</p></div>
+            <div class="title" id="title">Mirror chrome nail</div>
+            <div class="description">
+                <p>
+                description</p>
+             </div>     
+       </div>
+       <div class="serv_group">
+            <div class="img"><p>icon here</p></div>
+            <div class="title"  id="title">Artificial Nails</div>
+            <div class="description">
+                <p>
+                description</p>
+             </div>
+       </div>
+       <div class="serv_group">
+            <div class="img"><p>icon here</p></div>
+            <div class="title"  id="title">Nail polish</div>
+            <div class="description">
+                <p>
+                description</p>
+             </div>
+       </div>       
+       <div class="clear"></div>
+       <div class="clear"></div>
+       <div id="footer">
+           <div class="social">
+               <ul class="icons_list"> 
+                <li class="icons"><a href="https://www.facebook.com?" target="_blank"><img src="icons/facebook.png"></a></li>
+                <li class="icons"><a href="https://www.instagram.com?"  target="_blank"><img src="icons/instagram.png"></a></li>
+                <li class="icons"><a href="https://www.twitter.com?"  target="_blank"><img src="icons/twitter.png"></a></li>
+                <li class="icons"><a href="https://www.whatsapp.com?"  target="_blank"><img src="icons/whatsapp.png"></a></li>
+                <li class="icons"><a href="https://www.linkedin.com?"  target="_blank"><img src="icons/linkedin.png"></a></li>
+               </ul>
+           </div>
+           <p>Copyright ©2019 All rights reserved | Designed by Nebiye Lioul</p> 
+       </div>
+       </div>
+
+</body>
+<script type="text/javascript" charset="utf-8" async defer>
+	var x = document.getElementById("menu-toggle");
+	x.addEventListener("click",function(){
+         var y = document.getElementById("nav");
+         if(y.className == "nav-main"){
+         	y.className= "nav";
+         }
+
+         else if(y.className == "nav"){
+         	y.className = "nav-main";
+         }
+ 	});
+</script>
+</html>
